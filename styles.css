@@ -1,0 +1,54 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .gender, .interests {
+            display: flex;
+            gap: 10px;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .submit {
+            background-color: green;
+            color: white;
+        }
+        .reset {
+            background-color: red;
+            color: white;
+        }
+        .error-messages {
+            color: red;
+            font-weight: bold;
+        }
+    
